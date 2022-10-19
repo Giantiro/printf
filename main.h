@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
 
@@ -50,7 +51,7 @@ char *convert(unsigned long int num, int base, int lowercase);
 int _printf(const char *format, ...);
 
 /* get_print */
-int (*get_print(char s))(va_list, flags_t *);
+int (*get_print(char s))(va_list, flags_t *f);
 
 /* get_flag */
 int get_flag(char s, flags_t *f);
