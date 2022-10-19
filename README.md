@@ -12,7 +12,7 @@ Integer Input: _printf("There are %i dozens in a gross\n", 12); Output: There ar
 
 Decimal: Input: _printf("%d\n", 1000); Output: 1000
 
-Project Requirements All files will be compiled on Ubuntu 14.04 LTS Programs and functions will be compiled with gcc 4.8.4 using flags -Wall -Werror -Wextra and -pedantic Code must follow the Betty style Global variables are not allowed Authorized functions and macros: write (man 2 write) malloc (man 3 malloc) free (man 3 free) va_start (man 3 va_start) va_end (man 3 va_end) va_copy (man 3 va_copy) va_arg (man 3 va_arg)
+Project Requirements All files will be compiled on Ubuntu 20.04 LTS Programs and functions will be compiled with gcc 4.8.4 using flags -Wall -Werror -Wextra and -pedantic Code must follow the Betty style Global variables are not allowed Authorized functions and macros: write (man 2 write) malloc (man 3 malloc) free (man 3 free) va_start (man 3 va_start) va_end (man 3 va_end) va_copy (man 3 va_copy) va_arg (man 3 va_arg)
 
 Mandatory Tasks Write function that produces output with conversion specifiers c, s, and %. Handle conversion specifiers d, i. Create a man page for your function.
 
