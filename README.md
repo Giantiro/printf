@@ -1,3 +1,5 @@
+printf
+
 _printf is a custom implementation of the C programming function printf. This project is an application of the C programming knowledge that we have gained in the Alx software engineering cohort 9 students have learned since starting the program on 18th of oct 2022 Prototype: int _printf(const char *, ...);
 
 Examples
